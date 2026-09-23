@@ -1,5 +1,9 @@
 import React from "react";
 import treatmentDeepa from "./assets/treatment deepa mam.jpeg";
+import treatmentPigmentation from "./assets/treatment_pigmentation.jpg";
+import treatmentPimple from "./assets/treatment_pimple.jpg";
+import treatmentHairfall from "./assets/treatment_hairfall.jpg";
+import treatmentAntiAgeing from "./assets/treatment_antiageing.jpg";
 
 const treatments = [
     {
@@ -7,8 +11,7 @@ const treatments = [
         title: "Pigmentation",
         description:
             "A holistic approach to pigmentation concerns, focusing on supporting healthier-looking and more balanced skin.",
-        image:
-            "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1200&q=85",
+        image: treatmentPigmentation,
         className: "lg:col-span-7",
     },
     {
@@ -16,8 +19,7 @@ const treatments = [
         title: "Pimple Treatment",
         description:
             "A personalized approach to acne and pimple concerns, with attention to the underlying balance of the body.",
-        image:
-            "https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=1200&q=85",
+        image: treatmentPimple,
         className: "lg:col-span-5 lg:mt-24",
     },
     {
@@ -25,8 +27,7 @@ const treatments = [
         title: "Hairfall Control",
         description:
             "Supporting healthier hair and scalp through an approach that looks beyond the surface.",
-        image:
-            "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1200&q=85",
+        image: treatmentHairfall,
         className: "lg:col-span-5",
     },
     {
@@ -34,8 +35,7 @@ const treatments = [
         title: "Anti-Ageing",
         description:
             "A natural approach to ageing concerns designed around skin health, vitality and overall wellbeing.",
-        image:
-            "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1200&q=85",
+        image: treatmentAntiAgeing,
         className: "lg:col-span-7 lg:mt-24",
     },
 ];

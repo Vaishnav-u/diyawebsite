@@ -72,7 +72,7 @@ const CosmeticAcupuncture = () => {
 
                         <img
                             src={treatmentDeepa}
-                            alt="Cosmetic acupuncture treatment by Dr. Deepa at Diya Clinic"
+                            alt="Cosmetic acupuncture treatment by Dr. Deepa at Diya Cosmetology"
                             className="
                 absolute
                 inset-0
@@ -145,7 +145,7 @@ const CosmeticAcupuncture = () => {
                         <div className="mt-16">
 
                             <p className="text-sm leading-7 text-[#68665F]">
-                                At Diya Clinic, cosmetic acupuncture is approached as part
+                                At Diya Cosmetology, cosmetic acupuncture is approached as part
                                 of a broader understanding of beauty and wellbeing. The
                                 treatment is considered alongside your individual concerns
                                 and overall condition.
@@ -385,7 +385,7 @@ const CosmeticAcupuncture = () => {
                         </span>
 
                         <p className="font-serif text-3xl sm:text-4xl lg:text-5xl leading-[1] tracking-[-0.025em] mt-7 text-[#D8D5CD]">
-                            Treatment begins with a consultation—not a promise of a
+                            Treatment begins with a consultation not a promise of a
                             particular result.
                         </p>
 
@@ -427,7 +427,9 @@ const CosmeticAcupuncture = () => {
 
 
                         <a
-                            href="#contact"
+                            href="https://wa.link/7mt525"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="
                 inline-flex
                 items-center

@@ -25,7 +25,7 @@ const testimonials = [
         number: "01",
         name: "Client Story",
         category: "COSMETIC ACUPUNCTURE",
-        quote: "My experience at Diya Clinic...",
+        quote: "My experience at Diya Cosmetology...",
     },
     {
         id: "UOgikOOjsqg",
@@ -110,7 +110,7 @@ const Testimonials = () => {
 
                         <p className="mt-10 max-w-xl text-sm sm:text-[15px] leading-7 text-[#68665F]">
                             Hear directly from people who have shared their experiences
-                            with Diya Clinic. Each story is personal, and every treatment
+                            with Diya Cosmetology. Each story is personal, and every treatment
                             journey is different.
                         </p>
 
@@ -386,55 +386,6 @@ const Testimonials = () => {
             CTA
         ========================================= */}
 
-                <div className="mt-32 lg:mt-44 border-t border-[#D8D5CD] pt-10">
-
-                    <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-8">
-
-                        <div>
-
-                            <span className="text-[10px] uppercase tracking-[0.22em] text-[#96938A]">
-                                Your story could start here
-                            </span>
-
-                            <h3 className="font-serif text-4xl sm:text-5xl lg:text-6xl leading-[0.9] tracking-[-0.035em] mt-6">
-                                Begin with
-                                <br />
-                                a conversation.
-                            </h3>
-
-                        </div>
-
-
-                        <a
-                            href="#contact"
-                            className="
-                flex
-                items-center
-                justify-between
-                gap-10
-                bg-[#242321]
-                text-white
-                rounded-full
-                px-7
-                py-5
-                text-[11px]
-                tracking-wide
-                w-fit
-                hover:scale-[1.02]
-                transition-transform
-              "
-                        >
-                            Book a consultation
-
-                            <span className="text-base">
-                                ↗
-                            </span>
-
-                        </a>
-
-                    </div>
-
-                </div>
 
             </div>
 
@@ -457,7 +408,7 @@ const Testimonials = () => {
 
                         <iframe
                             src={`https://www.youtube.com/embed/${activeVideo}?autoplay=1&rel=0`}
-                            title="Diya Clinic testimonial"
+                            title="Diya Cosmetology testimonial"
                             className="absolute inset-0 w-full h-full"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowFullScreen

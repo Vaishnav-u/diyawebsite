@@ -233,7 +233,9 @@ const TreatmentJourney = () => {
                         </p>
 
                         <a
-                            href="#contact"
+                            href="https://wa.link/7mt525"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="
                   inline-flex
                   items-center

@@ -13,7 +13,7 @@ const Hero = () => {
                 <a href="#" className="flex items-center">
                     <img
                         src={diyaLogoBlack}
-                        alt="Diya Clinic"
+                        alt="Diya Cosmetology"
                         className="h-10 sm:h-12 w-auto object-contain"
                     />
                 </a>
@@ -38,10 +38,15 @@ const Hero = () => {
                 </div>
 
                 {/* CTA */}
-                <button className="hidden sm:flex items-center gap-3 bg-[#242321] text-white rounded-full px-5 py-3 text-[11px] tracking-wide hover:bg-[#3A3935] transition-all duration-300">
+                <a
+                    href="https://wa.link/7mt525"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hidden sm:flex items-center gap-3 bg-[#242321] text-white rounded-full px-5 py-3 text-[11px] tracking-wide hover:bg-[#3A3935] transition-all duration-300"
+                >
                     Book Consultation
                     <span className="text-sm">↗</span>
-                </button>
+                </a>
 
                 {/* Mobile menu */}
                 <button className="md:hidden w-10 h-10 rounded-full border border-[#D6D3CB] flex items-center justify-center">
@@ -71,7 +76,7 @@ const Hero = () => {
                         <div className="my-16 lg:my-0">
 
                             <p className="text-[11px] uppercase tracking-[0.22em] text-[#77766F] mb-6">
-                                DIYA CLINIC · INDIA
+                                DIYA COSMETOLOGY · KERALA, INDIA
                             </p>
 
                             <h1 className="font-serif text-[clamp(4rem,7vw,7.5rem)] leading-[0.82] tracking-[-0.045em]">
@@ -85,7 +90,7 @@ const Hero = () => {
                             </h1>
 
                             <p className="mt-8 max-w-md text-sm sm:text-[15px] leading-7 text-[#66655E]">
-                                A holistic approach to skin, hair and wellbeing —
+                                A holistic approach to skin, hair and wellbeing
                                 combining cosmetic acupuncture with a deeper understanding
                                 of your body's natural balance.
                             </p>
@@ -97,7 +102,9 @@ const Hero = () => {
                         <div className="flex flex-wrap items-center gap-5">
 
                             <a
-                                href="#contact"
+                                href="https://wa.link/7mt525"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="group flex items-center gap-4 bg-[#242321] text-white rounded-full px-6 py-4 text-xs tracking-wide hover:scale-[1.02] transition-transform duration-300"
                             >
                                 Book a consultation
@@ -124,7 +131,7 @@ const Hero = () => {
 
                         <img
                             src={treatmentDeepa}
-                            alt="Cosmetic acupuncture treatment at Diya Clinic"
+                            alt="Cosmetic acupuncture treatment at Diya Cosmetology"
                             className="absolute inset-0 w-full h-full object-cover object-center"
                         />
 
@@ -151,7 +158,7 @@ const Hero = () => {
 
                             <div className="bg-white/90 backdrop-blur-md rounded-2xl px-5 py-4 max-w-[260px]">
                                 <p className="text-[9px] uppercase tracking-[0.2em] text-[#77766F]">
-                                    DIYA CLINIC
+                                    DIYA COSMETOLOGY
                                 </p>
 
                                 <p className="mt-1 text-sm leading-5">

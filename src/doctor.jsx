@@ -281,7 +281,7 @@ const Doctor = () => {
                                 </p>
 
                                 <p className="text-xs text-[#77756E] mt-4">
-                                    Patients treated during her practice
+                                    Patients treated
                                 </p>
 
                             </div>
@@ -340,7 +340,7 @@ const Doctor = () => {
                         <div className="relative rounded-[24px] overflow-hidden bg-[#DEDCD5] aspect-[4/5] max-w-md shadow-sm">
                             <img
                                 src={deepaMam1}
-                                alt="Dr. Deepa S - Diya Clinic"
+                                alt="Dr. Deepa S - Diya Cosmetology"
                                 className="w-full h-full object-cover object-[center_20%]"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />

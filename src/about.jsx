@@ -17,7 +17,7 @@ const AboutClinic = () => {
                         <span className="w-2 h-2 rounded-full bg-[#9DAA91]" />
 
                         <span className="text-[10px] uppercase tracking-[0.25em] text-[#77766F]">
-                            About Diya Clinic
+                            About Diya Cosmetology
                         </span>
                     </div>
 
@@ -54,7 +54,7 @@ const AboutClinic = () => {
 
                         <div className="mt-10 max-w-2xl">
                             <p className="text-[15px] sm:text-base leading-8 text-[#66655E]">
-                                At Diya Clinic, we believe that beauty and wellbeing are
+                                At Diya Cosmetology, we believe that beauty and wellbeing are
                                 deeply connected. Our approach combines cosmetic acupuncture
                                 with a holistic understanding of the body to address your
                                 individual concerns naturally.
@@ -157,7 +157,7 @@ const AboutClinic = () => {
 
                         <img
                             src={treatment1}
-                            alt="Cosmetic acupuncture treatment at Diya Clinic"
+                            alt="Cosmetic acupuncture treatment at Diya Cosmetology"
                             className="w-full h-[500px] sm:h-[1000px] rounded-[28px] overflow-hidden bg-[#DDDAD2] object-cover"
                         />
 
@@ -179,7 +179,7 @@ const AboutClinic = () => {
 
                         <div>
                             <span className="text-[10px] uppercase tracking-[0.2em] text-[#85837B]">
-                                Why Diya
+                                Why Diya Cosmetology
                             </span>
 
                             <h3 className="font-serif text-4xl sm:text-5xl lg:text-6xl leading-[0.95] tracking-[-0.035em] mt-8">
