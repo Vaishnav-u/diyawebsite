@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import diyaLogoBlack from "./assets/diya logo black.png";
-import treatmentDeepa from "./assets/treatment deepa mam.jpeg";
+import facialAcupuncture2 from "./assets/Facial Accupuncture 2.jpg";
 
 const Hero = () => {
 
@@ -323,8 +323,8 @@ const Hero = () => {
                     <div className="relative min-h-[650px] lg:min-h-[calc(120vh-125px)] rounded-[28px] overflow-hidden bg-[#DAD8D2]">
 
                         <img
-                            src={treatmentDeepa}
-                            alt="Cosmetic acupuncture treatment at Diya Cosmetology"
+                            src={facialAcupuncture2}
+                            alt="Facial acupuncture treatment at Diya Cosmetology"
                             className="absolute inset-0 w-full h-full object-cover object-center"
                         />
 

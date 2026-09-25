@@ -1,9 +1,9 @@
 import React from "react";
-import treatmentDeepa from "./assets/treatment deepa mam.jpeg";
+import facialAcupuncture3 from "./assets/Facial Accupuncture 3.jpe";
 import treatmentPigmentation from "./assets/treatment_pigmentation.jpg";
 import treatmentPimple from "./assets/treatment_pimple.jpg";
 import treatmentHairfall from "./assets/treatment_hairfall.jpg";
-import treatmentAntiAgeing from "./assets/treatment_antiageing.jpg";
+import antiageing from "./assets/Antiageing.jpg";
 
 const treatments = [
     {
@@ -35,7 +35,7 @@ const treatments = [
         title: "Anti-Ageing",
         description:
             "A natural approach to ageing concerns designed around skin health, vitality and overall wellbeing.",
-        image: treatmentAntiAgeing,
+        image: antiageing,
         className: "lg:col-span-7 lg:mt-24",
     },
 ];
@@ -213,8 +213,8 @@ const Treatments = () => {
                         <div className="relative rounded-[26px] overflow-hidden min-h-[500px] lg:min-h-[650px]">
 
                             <img
-                                src={treatmentDeepa}
-                                alt="Cosmetic acupuncture treatment by Dr. Deepa"
+                                src={facialAcupuncture3}
+                                alt="Facial and scalp acupuncture treatment at Diya Cosmetology"
                                 className="absolute inset-0 w-full h-full object-cover object-center"
                             />
 

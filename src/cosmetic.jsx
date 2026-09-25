@@ -1,5 +1,5 @@
 import React from "react";
-import treatmentDeepa from "./assets/treatment deepa mam.jpeg";
+import facialAcupuncture1 from "./assets/Facial Accupuncture 1.png";
 
 const CosmeticAcupuncture = () => {
     return (
@@ -71,8 +71,8 @@ const CosmeticAcupuncture = () => {
                     <div className="lg:col-span-7 relative min-h-[560px] sm:min-h-[700px] lg:min-h-[820px] rounded-[28px] overflow-hidden bg-[#34332F]">
 
                         <img
-                            src={treatmentDeepa}
-                            alt="Cosmetic acupuncture treatment by Dr. Deepa at Diya Cosmetology"
+                            src={facialAcupuncture1}
+                            alt="Cosmetic acupuncture treatment at Diya Cosmetology"
                             className="
                 absolute
                 inset-0
@@ -370,6 +370,12 @@ const CosmeticAcupuncture = () => {
                     </div>
 
                 </div>
+
+
+                {/* =========================================
+            VISUAL SHOWCASE / TREATMENT IN PRACTICE
+        ========================================= */}
+
 
 
                 {/* =========================================
