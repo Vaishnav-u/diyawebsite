@@ -27,7 +27,7 @@ const Footer = () => {
                     {/* Contact Details with Icons */}
                     <div className="flex flex-col gap-6 text-xs text-[#B0AEA6]">
 
-                        {/* Location */}
+                        {/* Consultation Locations */}
                         <div className="flex items-start gap-3">
                             <svg
                                 className="w-4 h-4 text-[#C2BFB5] mt-0.5 shrink-0"
@@ -42,12 +42,23 @@ const Footer = () => {
                                 <circle cx="12" cy="10" r="3" />
                             </svg>
                             <div>
-                                <span className="block text-[10px] uppercase tracking-wider text-[#75736C] font-medium mb-1">
-                                    Location
+                                <span className="block text-[10px] uppercase tracking-wider text-[#75736C] font-medium mb-1.5">
+                                    Consultations Available In
                                 </span>
-                                <span className="text-[#F7F5F0] text-sm font-light">
-                                    Trivandrum, Kerala
-                                </span>
+                                <ul className="space-y-1.5 text-sm text-[#F7F5F0] font-light">
+                                    <li>
+                                        <span className="font-normal text-white">Kochi</span>
+                                        <span className="text-[#8E8C84] text-xs ml-1.5">— Palarivattom</span>
+                                    </li>
+                                    <li>
+                                        <span className="font-normal text-white">Kozhikode</span>
+                                        <span className="text-[#8E8C84] text-xs ml-1.5">— Near Medical College</span>
+                                    </li>
+                                    <li>
+                                        <span className="font-normal text-white">Changanassery</span>
+                                        <span className="text-[#8E8C84] text-xs ml-1.5">— Near Railway Station</span>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
 
