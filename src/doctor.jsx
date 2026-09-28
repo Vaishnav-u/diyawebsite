@@ -64,8 +64,10 @@ const Doctor = () => {
 
                         <p className="mt-10 max-w-xl text-sm sm:text-[15px] leading-7 text-[#68665F]">
                             An acupuncture cosmetologist with training across clinical
-                            cosmetology, trichology and acupuncture cosmetology, bringing
-                            together different perspectives on beauty and wellbeing.
+                            cosmetology, trichology and acupuncture cosmetology. Dr. Deepa is
+                            especially recognized for her clinical success in managing complex dermal
+                            conditions—particularly <strong className="text-[#242321] font-medium">Lichen Planus Pigmentosus (LPP)</strong>—bringing
+                            together gentle meridian therapy and proven regenerative skin results.
                         </p>
 
                     </div>
@@ -156,9 +158,7 @@ const Doctor = () => {
                                 </p>
 
                                 <p className="text-sm leading-7 text-[#68665F]">
-                                    Her approach combines these areas of knowledge to create
-                                    a more holistic perspective on cosmetic concerns involving
-                                    the skin and hair.
+                                    Widely sought-after for her clinical expertise in <strong className="text-[#242321] font-medium">Lichen Planus Pigmentosus (LPP)</strong> and chronic deep dermal pigmentation, she designs specialized, non-invasive acupuncture regimens that gently clear trapped melanophages while restoring cutaneous immunity and internal balance.
                                 </p>
 
                             </div>
@@ -170,6 +170,26 @@ const Doctor = () => {
                         <div className="mt-16">
 
                             <div className="border-t border-[#D0CDC4]">
+
+                                {/* Credential 0 - LPP Specialization */}
+                                <div className="py-5 border-b border-[#D0CDC4] flex items-center justify-between gap-5 bg-black/[0.02] px-3 rounded-lg -mx-3">
+
+                                    <div>
+                                        <p className="text-[10px] uppercase tracking-[0.15em] text-[#85837B]">
+                                            Primary Specialization
+                                        </p>
+
+                                        <p className="mt-1 text-sm font-medium text-[#242321]">
+                                            Lichen Planus Pigmentosus (LPP) & Dermal Care
+                                        </p>
+                                    </div>
+
+                                    <span className="text-[#9DAA91] text-xs font-semibold uppercase tracking-wider px-2 py-0.5 rounded bg-[#9DAA91]/10">
+                                        Focus
+                                    </span>
+
+                                </div>
+
 
                                 {/* Credential 1 */}
                                 <div className="py-5 border-b border-[#D0CDC4] flex items-center justify-between gap-5">

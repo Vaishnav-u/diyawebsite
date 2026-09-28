@@ -47,6 +47,14 @@ const Hero = () => {
                     </a>
 
                     <a
+                        href="#lpp-specialization"
+                        className="hover:text-black transition-colors font-medium text-[#242321] flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#E8E5DD]"
+                    >
+                        <span className="w-1.5 h-1.5 rounded-full bg-[#9DAA91]" />
+                        LPP Focus
+                    </a>
+
+                    <a
                         href="#acupuncture"
                         className="hover:text-black transition-colors"
                     >
@@ -167,6 +175,17 @@ const Hero = () => {
                         </a>
 
                         <a
+                            href="#lpp-specialization"
+                            onClick={closeMenu}
+                            className="py-5 border-b border-[#D9D6CE] font-serif text-4xl flex items-center justify-between text-[#242321]"
+                        >
+                            <span>LPP Specialization</span>
+                            <span className="text-xs uppercase tracking-widest px-3 py-1 rounded-full bg-[#AEB7A5] text-[#242321] font-sans">
+                                Flagship
+                            </span>
+                        </a>
+
+                        <a
                             href="#acupuncture"
                             onClick={closeMenu}
                             className="py-5 border-b border-[#D9D6CE] font-serif text-4xl"
@@ -282,15 +301,15 @@ const Hero = () => {
 
                             <p className="mt-8 max-w-md text-sm sm:text-[15px] leading-7 text-[#66655E]">
                                 A holistic approach to skin, hair and wellbeing
-                                combining cosmetic acupuncture with a deeper
-                                understanding of your body's natural balance.
+                                combining cosmetic acupuncture with clinical mastery in difficult
+                                conditions like <strong className="text-[#242321] font-medium">Lichen Planus Pigmentosus (LPP)</strong> and chronic pigmentation.
                             </p>
 
                         </div>
 
 
                         {/* Bottom CTA */}
-                        <div className="flex flex-wrap items-center gap-5">
+                        <div className="flex flex-wrap items-center gap-4 sm:gap-5">
 
                             <a
                                 href="https://wa.link/7mt525"
@@ -308,10 +327,11 @@ const Hero = () => {
 
 
                             <a
-                                href="#treatments"
-                                className="text-xs tracking-wide border-b border-[#8A8982] pb-1 hover:border-black transition-colors"
+                                href="#lpp-specialization"
+                                className="text-xs tracking-wide border-b border-[#8A8982] pb-1 hover:border-black transition-colors font-medium text-[#242321] flex items-center gap-1.5"
                             >
-                                Explore treatments
+                                <span>LPP Specialization</span>
+                                <span>↓</span>
                             </a>
 
                         </div>

@@ -4,14 +4,20 @@ import treatmentPigmentation from "./assets/treatment_pigmentation.jpg";
 import treatmentPimple from "./assets/treatment_pimple.jpg";
 import treatmentHairfall from "./assets/treatment_hairfall.jpg";
 import antiageing from "./assets/Antiageing.jpg";
+import pimpletreatment from "./assets/pimple treatment.jpg";
+import pigmentation from "./assets/pigmentation.jpg";
+import beforeAfter1 from "./assets/beforeafter1.jpeg";
+import beforeAfter2 from "./assets/beforeafter2.jpeg";
+import treatmentDeepaMam from "./assets/treatment deepa mam.jpeg";
 
 const treatments = [
     {
         number: "01",
-        title: "Pigmentation",
+        title: "LPP & Pigmentation",
+        badge: "Flagship Specialty",
         description:
-            "A holistic approach to pigmentation concerns, focusing on supporting healthier-looking and more balanced skin.",
-        image: treatmentPigmentation,
+            "Specialized clinical management of Lichen Planus Pigmentosus (LPP) and chronic dermal pigmentation using non-invasive cosmetic acupuncture to clear stubborn melanophages without laser trauma.",
+        image: pigmentation,
         className: "lg:col-span-7",
     },
     {
@@ -19,7 +25,7 @@ const treatments = [
         title: "Pimple Treatment",
         description:
             "A personalized approach to acne and pimple concerns, with attention to the underlying balance of the body.",
-        image: treatmentPimple,
+        image: pimpletreatment,
         className: "lg:col-span-5 lg:mt-24",
     },
     {
@@ -76,9 +82,9 @@ const Treatments = () => {
                         </h2>
 
                         <p className="mt-10 max-w-xl text-sm sm:text-[15px] leading-7 text-[#AAA8A0]">
-                            Explore our treatments designed around a holistic understanding
-                            of skin, hair and wellbeing. Every treatment begins with
-                            understanding your individual concerns.
+                            Explore our clinical treatments designed around a holistic understanding
+                            of skin, hair and wellbeing, with special clinical mastery in difficult
+                            conditions like <strong className="text-white font-normal">Lichen Planus Pigmentosus (LPP)</strong> and persistent dermal pigmentation.
                         </p>
                     </div>
 
@@ -119,12 +125,18 @@ const Treatments = () => {
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/5" />
 
 
-                                {/* Number */}
-                                <div className="absolute top-5 left-5">
+                                {/* Number & Badge */}
+                                <div className="absolute top-5 left-5 flex items-center gap-3">
 
                                     <div className="w-11 h-11 rounded-full bg-white/90 text-[#242321] flex items-center justify-center text-[10px]">
                                         {treatment.number}
                                     </div>
+
+                                    {treatment.badge && (
+                                        <span className="bg-[#AEB7A5] text-[#1E1D1B] font-medium text-[9px] uppercase tracking-[0.2em] px-3.5 py-2 rounded-full backdrop-blur-md shadow-sm">
+                                            {treatment.badge}
+                                        </span>
+                                    )}
 
                                 </div>
 
@@ -172,14 +184,218 @@ const Treatments = () => {
                                     {treatment.description}
                                 </p>
 
-                                <span className="hidden sm:block text-[10px] uppercase tracking-[0.18em] text-[#77756E] whitespace-nowrap">
-                                    Explore →
-                                </span>
 
                             </div>
 
                         </article>
                     ))}
+
+                </div>
+
+
+                {/* =====================================
+                    LPP (LICHEN PLANUS PIGMENTOSUS)
+                    CLINICAL FOCUS & CASE SHOWCASE
+                ===================================== */}
+
+                <div id="lpp-specialization" className="mt-32 lg:mt-44 scroll-mt-28">
+
+                    {/* Section Header */}
+                    <div className="border-t border-[#484741] pt-10 mb-14 lg:mb-20">
+                        <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8">
+                            <div className="max-w-3xl">
+                                <div className="flex items-center gap-3 mb-4">
+                                </div>
+                                <h3 className="font-serif text-3xl sm:text-5xl lg:text-6xl tracking-[-0.035em] leading-[0.95]">
+                                    Lichen Planus Pigmentosus
+                                    <br />
+                                    <span className="italic font-normal text-[#AEB7A5]">
+                                        (LPP) Treatment
+                                    </span>
+                                </h3>
+                            </div>
+                            <p className="max-w-md text-sm text-[#AAA8A0] leading-7">
+                                Dr. Deepa specializes in managing complex, stubborn pigmentary conditions most notably Lichen Planus Pigmentosus (LPP) where standard dermatological interventions often fail or cause rebound darkening.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Clinical Overview & Why Cosmetic Acupuncture Works */}
+                    <div className="grid lg:grid-cols-12 gap-8 mb-16 lg:mb-24">
+
+                        {/* What is LPP - Medical Context */}
+                        <div className="lg:col-span-6 bg-[#2B2A26] rounded-[28px] p-8 sm:p-10 flex flex-col justify-between">
+                            <div>
+
+                                <h4 className="font-serif text-2xl sm:text-3xl text-[#F7F5F0] mb-5">
+                                    What is Lichen Planus Pigmentosus?
+                                </h4>
+
+                                <p className="text-sm leading-7 text-[#AAA8A0] mb-4">
+                                    <strong className="text-white font-normal">Lichen Planus Pigmentosus (LPP)</strong> is a chronic, acquired pigmentary disorder characterized by diffuse, reticular, or mottled slate-gray to dark brownish-black macules on sun-exposed and flexural areas like the face, temples, cheeks, and neck.
+                                </p>
+
+                                <div className="space-y-3.5 mt-6 border-t border-[#3E3C36] pt-6">
+                                    <div className="flex items-start gap-3 text-xs leading-6 text-[#9A9890]">
+                                        <span className="text-[#AEB7A5] font-serif text-sm">✦</span>
+                                        <span><strong className="text-[#E5E3DC]">Dermal Melanin Incontinence:</strong> Unlike surface tanning, LPP involves an inflammatory lichenoid reaction where melanin granules drop deep into the dermis, trapped within melanophages.</span>
+                                    </div>
+                                    <div className="flex items-start gap-3 text-xs leading-6 text-[#9A9890]">
+                                        <span className="text-[#AEB7A5] font-serif text-sm">✦</span>
+                                        <span><strong className="text-[#E5E3DC]">Resistance to Standard Care:</strong> Traditional chemical peels, bleaching hydroquinone creams, or thermal lasers frequently provoke severe <span className="text-[#E0DEC5]">Post-Inflammatory Hyperpigmentation (PIH)</span>, making the condition darker or causing it to spread.</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="mt-8 pt-6 border-t border-[#3E3C36] flex items-center justify-between text-xs text-[#8E8C83]">
+                                <span>Commonly Affects: Face, Temples & Neck</span>
+                                <span className="text-[#AEB7A5]">Requires Non-Thermal Care</span>
+                            </div>
+                        </div>
+
+                        {/* How Dr. Deepa & Acupuncture Treats LPP */}
+                        <div className="lg:col-span-6 bg-gradient-to-br from-[#2F2E29] to-[#252420]  rounded-[28px] p-8 sm:p-10 flex flex-col justify-between">
+                            <div>
+                                <div className="flex items-center justify-between mb-6">
+
+                                </div>
+
+                                <h4 className="font-serif text-2xl sm:text-3xl text-[#F7F5F0] mb-5">
+                                    How Cosmetic Acupuncture Heals LPP
+                                </h4>
+
+                                <p className="text-sm leading-7 text-[#AAA8A0] mb-4">
+                                    Dr. Deepa employs a specialized, highly gentle <strong className="text-white font-normal">Cosmetic Acupuncture protocol</strong> designed specifically for deep dermal pigment clearance and root-cause immune balance without skin ablation.
+                                </p>
+
+                                <div className="grid sm:grid-cols-2 gap-4 mt-6 border-t border-[#3E3C36] pt-6">
+                                    <div className="bg-[#242321]/60 rounded-2xl p-4 border border-white/5">
+                                        <h5 className="font-serif text-base text-[#F7F5F0] mb-1.5">No Heat, No PIH</h5>
+                                        <p className="text-xs text-[#9A9890] leading-5">Zero heat or chemical burns eliminates the danger of rebound laser hyperpigmentation.</p>
+                                    </div>
+                                    <div className="bg-[#242321]/60 rounded-2xl p-4 border border-white/5">
+                                        <h5 className="font-serif text-base text-[#F7F5F0] mb-1.5">Dermal Clearance</h5>
+                                        <p className="text-xs text-[#9A9890] leading-5">Micro-needles stimulate localized lymphatic drainage and macrophage digestion of melanin.</p>
+                                    </div>
+                                    <div className="bg-[#242321]/60 rounded-2xl p-4 border border-white/5">
+                                        <h5 className="font-serif text-base text-[#F7F5F0] mb-1.5">Anti-Inflammatory</h5>
+                                        <p className="text-xs text-[#9A9890] leading-5">Calms the dermo-epidermal lichenoid cascade, halting new pigment deposition.</p>
+                                    </div>
+                                    <div className="bg-[#242321]/60 rounded-2xl p-4 border border-white/5">
+                                        <h5 className="font-serif text-base text-[#F7F5F0] mb-1.5">Barrier Resilience</h5>
+                                        <p className="text-xs text-[#9A9890] leading-5">Strengthens natural skin barrier and cellular regeneration from within.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="mt-8 pt-6 border-t border-[#3E3C36] flex flex-wrap items-center justify-between gap-4">
+                                <span className="text-xs text-[#AAA8A0]">Clinical results documented across hundreds of sessions</span>
+                                <a
+                                    href="https://wa.link/7mt525"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center gap-2 text-xs text-[#AEB7A5] hover:text-white transition-colors"
+                                >
+                                    <span>Discuss your LPP concerns</span>
+                                    <span>↗</span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    {/* TWO CLINICAL CONDITION & RESULT IMAGES */}
+                    <div className="mb-16">
+                        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
+                            <div>
+                                <span className="text-[10px] uppercase tracking-[0.2em] text-[#AEB7A5]">
+                                    Documented Clinical Cases
+                                </span>
+                                <h4 className="font-serif text-2xl sm:text-3xl text-[#F7F5F0] mt-1">
+                                    LPP Patient Results
+                                </h4>
+                            </div>
+                            <span className="text-xs text-[#8E8C83]">
+                                Genuine clinical documentation under Dr. Deepa's care
+                            </span>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
+
+                            {/* Case 1 */}
+                            <div className="bg-[#2D2C28] border border-[#3E3C36] rounded-[28px] p-6 sm:p-8 flex flex-col group hover:border-[#67655E] transition-all duration-300">
+                                <div className="relative overflow-hidden rounded-[22px] bg-[#1E1D1B] aspect-square shadow-inner">
+                                    <img
+                                        src={beforeAfter1}
+                                        alt="Clinical photograph showing Lichen Planus Pigmentosus (LPP) before and after one cosmetic acupuncture session"
+                                        className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+                                    />
+                                    <div className="absolute top-4 left-4 bg-black/70 backdrop-blur-md text-white text-[9px] uppercase tracking-[0.18em] px-3 py-1.5 rounded-full border border-white/10">
+                                        Condition Photo 01 · LPP
+                                    </div>
+                                </div>
+
+                                <div className="pt-6 mt-auto">
+                                    <div className="flex items-center justify-between mb-3">
+                                        <span className="text-[10px] uppercase tracking-[0.2em] text-[#AEB7A5] font-medium">
+                                            LPP Case Study 01
+                                        </span>
+                                        <span className="text-[11px] text-[#A9A79F] px-3.5 py-1 rounded-full bg-white/5 border border-white/10">
+                                            Single Session Response
+                                        </span>
+                                    </div>
+                                    <h4 className="font-serif text-2xl text-[#F7F5F0]">
+                                        Facial Lichen Planus Pigmentosus (LPP)
+                                    </h4>
+                                    <div className="mt-3 space-y-2 text-xs sm:text-[13px] leading-6 text-[#99978F]">
+                                        <p>
+                                            <strong className="text-[#C9C7BF] font-normal">Condition Presentation:</strong> Deep, diffuse slate-gray macular hyperpigmentation across the cheeks and jawline, characteristic of active dermal LPP.
+                                        </p>
+                                        <p>
+                                            <strong className="text-[#AEB7A5] font-normal">Observed Result:</strong> Noticeable lightening of deep dermal pigment patches and visible reduction in underlying erythema after just one targeted cosmetic acupuncture session.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Case 2 */}
+                            <div className="bg-[#2D2C28] border border-[#3E3C36] rounded-[28px] p-6 sm:p-8 flex flex-col group hover:border-[#67655E] transition-all duration-300">
+                                <div className="relative overflow-hidden rounded-[22px] bg-[#1E1D1B] aspect-square shadow-inner">
+                                    <img
+                                        src={beforeAfter2}
+                                        alt="Clinical photograph showing deep facial hyperpigmentation and LPP before and after 6 months of cosmetic acupuncture treatment"
+                                        className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+                                    />
+                                    <div className="absolute top-4 left-4 bg-black/70 backdrop-blur-md text-white text-[9px] uppercase tracking-[0.18em] px-3 py-1.5 rounded-full border border-white/10">
+                                        Condition Photo 02 · Deep Dermal
+                                    </div>
+                                </div>
+
+                                <div className="pt-6 mt-auto">
+                                    <div className="flex items-center justify-between mb-3">
+                                        <span className="text-[10px] uppercase tracking-[0.2em] text-[#AEB7A5] font-medium">
+                                            LPP Case Study 02
+                                        </span>
+                                        <span className="text-[11px] text-[#A9A79F] px-3.5 py-1 rounded-full bg-white/5 border border-white/10">
+                                            6 Months Protocol
+                                        </span>
+                                    </div>
+                                    <h4 className="font-serif text-2xl text-[#F7F5F0]">
+                                        Chronic Deep Pigmentation & Stabilization
+                                    </h4>
+                                    <div className="mt-3 space-y-2 text-xs sm:text-[13px] leading-6 text-[#99978F]">
+                                        <p>
+                                            <strong className="text-[#C9C7BF] font-normal">Condition Presentation:</strong> Stubborn, dark brownish-black periorbital and temple hyperpigmentation persisting despite months of topical and conventional attempts.
+                                        </p>
+                                        <p>
+                                            <strong className="text-[#AEB7A5] font-normal">Observed Result:</strong> Substantial, natural clearing of deep pigment deposits, sustained revitalization of skin tone, and zero rebound darkening across a 6-month holistic course.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
 
                 </div>
 

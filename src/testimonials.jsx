@@ -2,6 +2,14 @@ import React, { useState } from "react";
 
 const writtenTestimonials = [
     {
+        name: "Devika M.",
+        role: "Patient Experience",
+        tag: "Lichen Planus Pigmentosus (LPP)",
+        sessions: "Course Completed",
+        story:
+            "I had been dealing with persistent slate-gray patches on my cheeks and temples diagnosed as LPP. I feared chemical peels or lasers would trigger rebound darkening. Dr. Deepa's gentle cosmetic acupuncture calmed the inflammation and softened the deep pigmentation naturally without irritation.",
+    },
+    {
         name: "Dr. Aswathy",
         role: "Patient Experience",
         tag: "Acne, Scars & PCOS Care",
@@ -335,7 +343,7 @@ const Testimonials = () => {
                         </span>
                     </div>
 
-                    <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
                         {writtenTestimonials.map((item, index) => (
                             <div
                                 key={item.name}

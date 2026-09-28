@@ -146,15 +146,11 @@ const CosmeticAcupuncture = () => {
 
                             <p className="text-sm leading-7 text-[#68665F]">
                                 At Diya Cosmetology, cosmetic acupuncture is approached as part
-                                of a broader understanding of beauty and wellbeing. The
-                                treatment is considered alongside your individual concerns
-                                and overall condition.
+                                of a broader understanding of cellular vitality and dermatological healing. It is particularly renowned for resolving resistant pigmentary conditions like <strong className="text-[#242321] font-medium">Lichen Planus Pigmentosus (LPP)</strong>—where standard lasers or harsh chemical peels risk severe rebound darkening.
                             </p>
 
                             <p className="text-sm leading-7 text-[#68665F] mt-5">
-                                A consultation provides an opportunity to discuss your
-                                concerns and determine whether this approach is appropriate
-                                for you.
+                                By stimulating micro-perfusion and cellular lymphatic drainage without heat trauma, acupuncture encourages the body to naturally clear trapped dermal melanophages while pacifying the underlying lichenoid inflammatory cascade.
                             </p>
 
                         </div>
