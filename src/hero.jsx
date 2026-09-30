@@ -65,7 +65,7 @@ const Hero = () => {
                         href="#doctor"
                         className="hover:text-black transition-colors"
                     >
-                        Dr. Deepa
+                        Deepa S Chandran
                     </a>
 
                     <a
@@ -198,7 +198,7 @@ const Hero = () => {
                             onClick={closeMenu}
                             className="py-5 border-b border-[#D9D6CE] font-serif text-4xl"
                         >
-                            Dr. Deepa
+                            Deepa S Chandran
                         </a>
 
                         <a

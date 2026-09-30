@@ -205,7 +205,7 @@ const AboutClinic = () => {
                                 href="#doctor"
                                 className="inline-flex items-center gap-4 mt-8 text-xs tracking-wide border-b border-[#77766F] pb-2 hover:border-black transition-colors"
                             >
-                                Meet Dr. Deepa
+                                Meet Deepa S Chandran
 
                                 <span>
                                     ↗

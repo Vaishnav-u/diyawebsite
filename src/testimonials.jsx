@@ -7,7 +7,7 @@ const writtenTestimonials = [
         tag: "Lichen Planus Pigmentosus (LPP)",
         sessions: "Course Completed",
         story:
-            "I had been dealing with persistent slate-gray patches on my cheeks and temples diagnosed as LPP. I feared chemical peels or lasers would trigger rebound darkening. Dr. Deepa's gentle cosmetic acupuncture calmed the inflammation and softened the deep pigmentation naturally without irritation.",
+            "I had been dealing with persistent slate-gray patches on my cheeks and temples diagnosed as LPP. I feared chemical peels or lasers would trigger rebound darkening. Deepa S Chandran's gentle cosmetic acupuncture calmed the inflammation and softened the deep pigmentation naturally without irritation.",
     },
     {
         name: "Dr. Aswathy",
@@ -15,7 +15,7 @@ const writtenTestimonials = [
         tag: "Acne, Scars & PCOS Care",
         sessions: "2 Sessions",
         story:
-            "I initially visited Dr. Deepa’s clinic for cosmetic treatment for acne and acne scars. During the consultation, I mentioned PCOS and a history of amenorrhea. I underwent acupuncture therapy, attended two sessions, and my periods returned about two months after the second session and remained regular for the following year.",
+            "I initially visited Deepa S Chandran's clinic for cosmetic treatment for acne and acne scars. During the consultation, I mentioned PCOS and a history of amenorrhea. I underwent acupuncture therapy, attended two sessions, and my periods returned about two months after the second session and remained regular for the following year.",
     },
     {
         name: "Nirupama Shankar",

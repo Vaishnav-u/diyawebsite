@@ -1,14 +1,17 @@
 import React from "react";
 import facialAcupuncture3 from "./assets/Facial Accupuncture 3.jpe";
-import treatmentPigmentation from "./assets/treatment_pigmentation.jpg";
-import treatmentPimple from "./assets/treatment_pimple.jpg";
 import treatmentHairfall from "./assets/treatment_hairfall.jpg";
 import antiageing from "./assets/Antiageing.jpg";
 import pimpletreatment from "./assets/pimple treatment.jpg";
 import pigmentation from "./assets/pigmentation.jpg";
 import beforeAfter1 from "./assets/beforeafter1.jpeg";
 import beforeAfter2 from "./assets/beforeafter2.jpeg";
-import treatmentDeepaMam from "./assets/treatment deepa mam.jpeg";
+import pimpleBefore from "./assets/pimple treatment bf 1.jpeg";
+import pimpleAfter from "./assets/pimple treatment bf 2.jpeg";
+import hairfallBefore from "./assets/hairfall bf 1.jpeg";
+import hairfallAfter from "./assets/hairfall bf 2.jpeg";
+import antiageingBefore from "./assets/anti-ageing b&f 1.jpeg";
+import antiageingAfter from "./assets/anti-ageing b&f 2.jpeg";
 
 const treatments = [
     {
@@ -215,7 +218,7 @@ const Treatments = () => {
                                 </h3>
                             </div>
                             <p className="max-w-md text-sm text-[#AAA8A0] leading-7">
-                                Dr. Deepa specializes in managing complex, stubborn pigmentary conditions most notably Lichen Planus Pigmentosus (LPP) where standard dermatological interventions often fail or cause rebound darkening.
+                                Deepa S Chandran, Acupuncture Cosmetologist, specializes in managing complex, stubborn pigmentary conditions most notably Lichen Planus Pigmentosus (LPP) where standard dermatological interventions often fail or cause rebound darkening.
                             </p>
                         </div>
                     </div>
@@ -253,7 +256,7 @@ const Treatments = () => {
                             </div>
                         </div>
 
-                        {/* How Dr. Deepa & Acupuncture Treats LPP */}
+                        {/* How acupuncture is used to treat LPP */}
                         <div className="lg:col-span-6 bg-gradient-to-br from-[#2F2E29] to-[#252420]  rounded-[28px] p-8 sm:p-10 flex flex-col justify-between">
                             <div>
                                 <div className="flex items-center justify-between mb-6">
@@ -265,7 +268,7 @@ const Treatments = () => {
                                 </h4>
 
                                 <p className="text-sm leading-7 text-[#AAA8A0] mb-4">
-                                    Dr. Deepa employs a specialized, highly gentle <strong className="text-white font-normal">Cosmetic Acupuncture protocol</strong> designed specifically for deep dermal pigment clearance and root-cause immune balance without skin ablation.
+                                    Deepa S Chandran employs a specialized, highly gentle <strong className="text-white font-normal">Cosmetic Acupuncture protocol</strong> designed specifically for deep dermal pigment clearance and root-cause immune balance without skin ablation.
                                 </p>
 
                                 <div className="grid sm:grid-cols-2 gap-4 mt-6 border-t border-[#3E3C36] pt-6">
@@ -316,7 +319,7 @@ const Treatments = () => {
                                 </h4>
                             </div>
                             <span className="text-xs text-[#8E8C83]">
-                                Genuine clinical documentation under Dr. Deepa's care
+                                Genuine clinical documentation under Deepa S Chandran's care
                             </span>
                         </div>
 
@@ -399,6 +402,60 @@ const Treatments = () => {
 
                 </div>
 
+
+                <div className="mt-24 lg:mt-32 border-t border-[#484741] pt-10">
+                    <div className="mb-10">
+                        <span className="text-[10px] uppercase tracking-[0.2em] text-[#AEB7A5]">
+                            Other treatments
+                        </span>
+                        <h3 className="font-serif text-3xl sm:text-5xl text-[#F7F5F0] mt-3">
+                            Care for skin and hair
+                        </h3>
+                    </div>
+
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-12">
+                        {[
+                            {
+                                title: "Pimple Treatment",
+                                description: "Acne can be influenced by hormonal changes. Our acupuncture based approach considers these factors and aims to support hormonal balance while drainingm out cystic acne. No injections or medications are used. It can also be a solution for endometriosis.",
+                                before: pimpleBefore,
+                                after: pimpleAfter,
+                            },
+                            {
+                                title: "Hairfall Control",
+                                description: "Scalp acupuncture is used to nourish the scalp and support concerns such as hairfall and thinning. Melanocytes naturally produce melanin, while the treatment focuses on supporting scalp health and healthy-looking strands.",
+                                before: hairfallBefore,
+                                after: hairfallAfter,
+                            },
+                            {
+                                title: "Anti-Ageing",
+                                description: "A gentle approach to the visible signs of ageing, including fine lines, wrinkles, changes in skin texture and the appearance of facial contours.",
+                                before: antiageingBefore,
+                                after: antiageingAfter,
+                            },
+                        ].map((treatment) => (
+                            <article key={treatment.title}>
+                                <div className="grid grid-cols-2 gap-2">
+                                    {[treatment.before, treatment.after].map((image, index) => (
+                                        <figure key={image}>
+                                            <img
+                                                src={image}
+                                                alt={`${treatment.title} ${index === 0 ? "before" : "after"} treatment`}
+                                                className="w-full aspect-[4/5] object-cover rounded-lg bg-[#34332F]"
+                                            />
+                                        </figure>
+                                    ))}
+                                </div>
+                                <h4 className="font-serif text-2xl text-[#F7F5F0] mt-5">
+                                    {treatment.title}
+                                </h4>
+                                <p className="text-[13px] leading-6 text-[#AAA8A0] mt-2">
+                                    {treatment.description}
+                                </p>
+                            </article>
+                        ))}
+                    </div>
+                </div>
 
                 {/* =====================================
             COSMETIC ACUPUNCTURE FEATURE

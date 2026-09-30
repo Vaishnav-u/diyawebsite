@@ -131,7 +131,7 @@ const Footer = () => {
                             Treatments
                         </a>
                         <a href="#doctor" className="hover:text-white transition">
-                            Dr. Deepa
+                            Deepa S Chandran
                         </a>
                         <a href="#testimonials" className="hover:text-white transition">
                             Testimonials
@@ -149,7 +149,7 @@ const Footer = () => {
                             Ready to begin?
                         </p>
                         <p className="text-xs text-[#89877F] mt-2">
-                            Book a consultation with Dr. Deepa.
+                            Book a consultation with Deepa S Chandran, Acupuncture Cosmetologist.
                         </p>
                     </div>
 

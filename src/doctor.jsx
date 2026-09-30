@@ -58,13 +58,17 @@ const Doctor = () => {
                             Meet
                             <br />
                             <span className="italic">
-                                Dr. Deepa S.
+                                Deepa S Chandran
                             </span>
                         </h2>
 
+                        <p className="mt-4 text-xs uppercase tracking-[0.18em] text-[#85837B]">
+                            Acupuncture Cosmetologist
+                        </p>
+
                         <p className="mt-10 max-w-xl text-sm sm:text-[15px] leading-7 text-[#68665F]">
                             An acupuncture cosmetologist with training across clinical
-                            cosmetology, trichology and acupuncture cosmetology. Dr. Deepa is
+                            cosmetology, trichology and acupuncture cosmetology. Deepa S Chandran is
                             especially recognized for her clinical success in managing complex dermal
                             conditions—particularly <strong className="text-[#242321] font-medium">Lichen Planus Pigmentosus (LPP)</strong>—bringing
                             together gentle meridian therapy and proven regenerative skin results.
@@ -91,7 +95,7 @@ const Doctor = () => {
 
                             <img
                                 src={deepaMamMain}
-                                alt="Dr. Deepa S - Cosmetic Acupuncturist"
+                                alt="Deepa S Chandran, Acupuncture Cosmetologist"
                                 className="absolute inset-0 w-full h-full object-cover object-[center_20%]"
                             />
 
@@ -103,7 +107,7 @@ const Doctor = () => {
 
                                 <div className="bg-white/90 backdrop-blur-md rounded-full px-5 py-3">
                                     <span className="text-[10px] uppercase tracking-[0.2em]">
-                                        Dr. Deepa S.
+                                        Deepa S Chandran
                                     </span>
                                 </div>
 
@@ -152,7 +156,7 @@ const Doctor = () => {
                             <div className="mt-10 space-y-5">
 
                                 <p className="text-sm leading-7 text-[#68665F]">
-                                    Dr. Deepa S. is an acupuncture cosmetologist trained in
+                                    Deepa S Chandran is an acupuncture cosmetologist trained in
                                     Clinical Cosmetology, Trichology and Acupuncture
                                     Cosmetology.
                                 </p>
@@ -360,7 +364,7 @@ const Doctor = () => {
                         <div className="relative rounded-[24px] overflow-hidden bg-[#DEDCD5] aspect-[4/5] max-w-md shadow-sm">
                             <img
                                 src={deepaMam1}
-                                alt="Dr. Deepa S - Diya Cosmetology"
+                                alt="Deepa S Chandran - Diya Cosmetology"
                                 className="w-full h-full object-cover object-[center_20%]"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
@@ -369,7 +373,7 @@ const Doctor = () => {
                                     Cosmetic Acupuncturist
                                 </span>
                                 <p className="font-serif italic text-2xl mt-1">
-                                    Dr. Deepa S.
+                                    Deepa S Chandran
                                 </p>
                             </div>
                         </div>
@@ -404,7 +408,7 @@ const Doctor = () => {
                                 </h4>
 
                                 <p className="text-sm text-[#6D6B64] leading-7 mt-4 max-w-lg">
-                                    Dr. Deepa completed her courses through the Indian Institute
+                                    Deepa S Chandran completed her courses through the Indian Institute
                                     of Cosmetology, Trichology and Nutrition in Mumbai.
                                 </p>
 
