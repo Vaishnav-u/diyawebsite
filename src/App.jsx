@@ -5,6 +5,7 @@ import AboutClinic from './about'
 import Treatments from './treatments'
 import Doctor from './doctor'
 import Journey from './journey'
+import Reels from './reels'
 import CosmeticAcupuncture from './cosmetic'
 import Testimonials from './testimonials'
 import Footer from './footer'
@@ -20,6 +21,7 @@ function App() {
       <Treatments />
       <Doctor />
       <Journey />
+      <Reels />
       <CosmeticAcupuncture />
       <Testimonials />
       <Footer />
